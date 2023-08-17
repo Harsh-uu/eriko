@@ -4,9 +4,9 @@ import Category from "./Category";
 import Gallery from "./Gallery";
 import HeroSection  from "./HeroSection";
 import axios from "axios";
-import { Products } from "@/types/productsApiTypings";
+import { Product } from "@/types/productsApiTypings";
 export default async function Home() {
-    const { data:products }:{ data:Products }=await  axios.get("https://fakestoreapi.com/products");
+    const { data:products }:{ data:Product[] }=await  axios.get("https://fakestoreapi.com/products");
     const { data:categories }:{ data:string[] }=await  axios.get("https://fakestoreapi.com/products/categories");
   return (
     <>

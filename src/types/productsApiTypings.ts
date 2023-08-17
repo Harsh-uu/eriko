@@ -1,4 +1,4 @@
-export type Products= {
+export type Product= {
   id: number
   title: string
   price: number
@@ -6,7 +6,7 @@ export type Products= {
   category: string
   image: string
   rating: Rating
-}[]
+}
 
 export interface Rating {
   rate: number
