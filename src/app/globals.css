@@ -1,27 +1,34 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+.list_container {
+  direction: rtl;
+  overflow-y:scroll;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.item_direction {
+  direction:ltr;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.list_container::-webkit-scrollbar {
+  width: 2px;
+}
+
+.list_container::-webkit-scrollbar-track {
+  background: #979EA9;
+}
+
+.list_container::-webkit-scrollbar-thumb {
+  border-right: solid black;
+}
+
+.centre{
+  margin-inline: auto !important;
 }
