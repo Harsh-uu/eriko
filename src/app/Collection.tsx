@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export const Collection=()=> {
   return (
-     <div className='lg:bg-white md:bg-black'>
+     <div className='lg:bg-white'>
     <h1 className='font-abril pt-24 text-4xl text-center'>New collection of us</h1>
     <div className='grid grid-cols-2 gap-20 mt-10 mx-auto lg:max-w-[55rem] xl:max-w-[68rem] font-pop bg-[f3f4f6]'>
         <div className='hover:scale-[1.01] hover:shadow-xl duration-300 ease-in-out transition-all grid grid-cols-2 rounded-lg overflow-hidden'>

@@ -11,7 +11,7 @@ type CategoryProps = {
 function Category({products,category}:CategoryProps) {
     const [activeItem, setActiveItem] = useState("All");
     return (
-        <div className="md:bg-black lg:bg-white">
+        <div className=" lg:bg-white">
             <h1 className="font-abril pt-24 text-4xl text-center">Our category</h1>
             <div className="flex lg:gap-5 xl:gap-8  justify-evenly pt-6 pb-10 w-fit mx-auto ">
                 {["All",...category].map((item, index) => (

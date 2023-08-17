@@ -4,7 +4,7 @@ import { BiLogoLinkedin, BiLogoInstagram, BiLogoFacebook, BiLogoTwitter, BiRight
 
 function Footer() {
   return (
-    <footer className='lg:bg-[#222222] md:bg-white '>
+    <footer className='lg:bg-[#222222] '>
         <div className='bg-[#222222] grid grid-cols-3 text-white mx-auto lg:w-[60rem] xl:w-[75rem] border-b-[1px] border-[#5d6167]'>
             <div className='bg-[#222222] lg:pr-12 xl:pr-28'>
             <h1 className='font-semibold pt-16 pb-8 text-3xl'>🖤 ERIKO</h1>

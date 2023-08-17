@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function Gallery() {
   return (
-    <div className='md:bg-black lg:bg-white mb-24'>
+    <div className=' lg:bg-white mb-24'>
     <h1 className='font-abril pt-16 text-4xl text-center'>Recent gallery</h1>
     <p className='text-[#979EA9] xl:text-[1.12rem] text-center pt-3'>We&apos;re not just a store, we&apos;re your story!</p>
     <div className=' mx-auto lg:w-[60rem] xl:w-[75rem] mt-5 grid grid-cols-2 gap-7 h-fit'>
